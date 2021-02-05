@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+.home {
+    width: 100%;
+    height: 100%;
+    background: blueviolet;
+}
+
+.headline {
+    font-size: 5rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.nav-links {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.note-to-self {
+    color: white;
+    font-size: 25px;
+}
