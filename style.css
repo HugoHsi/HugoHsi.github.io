@@ -1,29 +1,49 @@
-body {
-    margin: 0;
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    transition: 300ms ease all;
 }
 
-ul {
-    list-style-type: none;
-}
-.home {
-    width: 100%;
-    height: 100%;
-    background: blueviolet;
+img {
+    width: 24rem;
+    border: solid black;
 }
 
-.headline {
-    font-size: 5rem;
-    font-family: sans-serif;
-    color: white;
-}
-
-.nav-links {
-    color: white;
-    font-size: 50px;
+a {
     text-decoration: none;
 }
 
-.note-to-self {
-    color: white;
-    font-size: 25px;
+h1 {
+    font-family: helvetica;
+    color: black;
+    font-size: 8rem;
+    margin-bottom: 0;
 }
+
+p {
+    font-family: helvetica;
+    color: black;
+    font-size: 6rem;
+}
+
+
+.flex:hover {
+    transform: translateY(2rem);
+    background-color: mistyrose;
+}
+
+.sub {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    p {
+        font-size: 400%;
+    }
+    
+    img {
+        width: 50%;
+        height: 50%;
+    }
+  }
